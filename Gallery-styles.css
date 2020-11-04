@@ -23,6 +23,7 @@ nav{
 .nav-links{
     display: flex;
     list-style: none;
+    cursor: pointer;
 }
 .nav-links li {
     padding-left: 20px;
@@ -75,6 +76,15 @@ body{
       /*display: block;*/
       width: 100%;
       height: auto;
+    }
+
+    footer{
+        background-color: #333;
+        color: whitesmoke;
+        text-align: center;
+        padding: 40px 0;
+        margin-top: 10px;
+        width: 100vw;
     }
     
     
