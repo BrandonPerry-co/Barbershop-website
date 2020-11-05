@@ -151,6 +151,58 @@ label {
 
 /* End of contact*/
 
+/* The start of Blogpage*/
+
+.Title-1{
+  display: flex;
+  padding: 12px 0 10px 0;
+  font-size: 30px;
+  color: #ccc;
+  justify-content: center;
+}
+button:hover{
+  background-color: salmon;
+  width: 15%;
+}
+
+.main-blog{
+  display: flex;
+  padding: 12px 0 10px 0;
+  font-size: 30px;
+  color: #ccc;
+  justify-content: center;
+}
+.blogImage{
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  float: left;
+}
+.blog-1{
+  display: flex;
+  text-align: justify;
+  float: right;
+  max-width: 70%;
+  
+}
+.blog-1 h3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.blog-1 p{
+  display: flex;
+  padding-left: 20px;
+}
+.blog-1 ul li{
+  display: block;
+  float: right;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 50px;
+  border: salmon solid 3px;
+}
+
     footer{
         background-color: #333;
         color: whitesmoke;
@@ -178,6 +230,53 @@ label {
         color: whitesmoke;
         justify-content: center;
         padding-bottom: 30px;
+      }
+      button:hover{
+        width: 50%;
+      }
+      .blogImage{
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+        float: left;
+      }
+      .blog-1{
+        display: flex;
+        text-align: justify;
+        float: right;
+        max-width: 60%;
+      }
+      .blog-1 h3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      .blog-1 p{
+        display: flex;
+        padding-left: 20px;
+        font-size: 15px;
+      }
+      .blog-1 button{
+        display: flex;
+        margin-top: 10px;
+        padding: 10px 20px;
+        justify-content: center;
+      }
+      .blog-1 ul li{
+        display: block;
+        float: right;
+        padding: 10px;
+        font-size: 18px;
+        margin-left: 50px;
+      }
+      .blogImage #combs-1{
+        /*.blogImage{*/
+          display: block;
+          width: 40%;
+          height: 50%;
+          margin: 0 auto;
+          float: left;
+        }
       }
     }
    
@@ -223,6 +322,25 @@ label {
         border-radius: 5px;
         border: 1px solid #ccc;
         box-shadow: 1px 1px 1px #999;
+    }
+    .blogImage{
+      display: block;
+      width: 40%;
+      margin: 0 auto;
+      float: left;
+    }
+    .blog-1{
+      display: flex;
+      text-align: justify;
+      float: right;
+      max-width: 100%;
+    }
+    .blog-1 ul li{
+      display: block;
+      float: right;
+      padding: 5px;
+      font-size: 10px;
+      border: none;
     }
       footer{
         background-color: #333;
