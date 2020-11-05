@@ -78,12 +78,85 @@ body{
       height: auto;
     }
 
+    /* styles for contact page
+
+    .contact-h1{
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+    */
+
+    .Title{
+      display: flex;
+      font-size: 40px;
+      padding-left: 0%;
+      color: whitesmoke;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+    .container{
+      margin-top: 20px;
+      display: block;
+    }
+
+    .main-contact{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .contact{
+      display: flex;
+      height: 60vh;
+      width: 30vw;
+
+
+    }
+
+    legend {
+      background-color:tomato;
+      color: #fff;
+      padding: 3px 6px;
+      margin-left: 30%;
+  }
+  
+  .output {
+      font: 1rem 'Fira Sans', sans-serif;
+  }
+  
+  input {
+      margin: .4rem;
+  }
+
+
+    label, textarea {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+    textarea {
+    padding: 20px ;
+    line-height: 1.2;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* End of contact*/
+
     footer{
         background-color: #333;
         color: whitesmoke;
         text-align: center;
         padding: 40px 0;
-        margin-top: 10px;
+        margin-top: 10%;
         width: 100vw;
     }
     
@@ -97,11 +170,20 @@ body{
         flex: 50%;
         max-width: 50%;
       }
+
+      .Title{
+        display: flex;
+        font-size: 15px;
+        padding-left: 0%;
+        color: whitesmoke;
+        justify-content: center;
+        padding-bottom: 30px;
+      }
     }
    
     
     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 550px) {
 
         #logo{
             display: flex;
@@ -119,4 +201,35 @@ body{
         flex: 100%;
         max-width: 100%;
       }
+
+      .Title{
+        display: flex;
+        font-size: 19px;
+        padding-left: 0%;
+        color: whitesmoke;
+        justify-content: center;
+        padding-bottom: 20px;
+      }
+      label, textarea {
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: #ccc;
+    }
+        textarea {
+        margin-left: -60px;
+        margin-bottom: 2pt;
+        padding: 2px;
+        line-height: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #999;
+    }
+      footer{
+        background-color: #333;
+        color: whitesmoke;
+        text-align: center;
+        padding: 40px 0;
+        margin-top: 30%;
+        width: 100vw;
+    }
     }

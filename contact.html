@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Gallery-styles.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <section id=landing>
+        <nav id="Nav">
+            <h1 id="logo">Dev Barbershop</h1>
+            <ul class="nav-links">
+                <li>Home</li>
+                <li><a href="about.html"></a> About</li>
+                <li><a href="Gallery.html"></a> Gallery</li>
+                <li><a href="contact.html"></a> Contact</li>
+                <li><a href="./Blog.html"></a> Blog/News</li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="Title">
+        <div class="contact-h1">
+            <h1>Schedule your next appointment</h1>
+        </div>
+    </section>
+
+    <main class="main-contact">
+        <div class="contact">
+
+            <div class="container">
+
+                <form action="" method="get" class="form-e">
+                    <div class="form-e">
+                      <label for="name">Enter your name: </label>
+                      <input type="text" name="name" id="name" required>
+
+                      <label for="email">Enter your email: </label>
+                      <input type="email" name="email" id="email" required>
+                    </div>
+                      
+                  </form>
+
+                <label for="start">Schedule an appointment:</label>
+
+                <input type="date" id="schedule" name="time-slot"
+                    value="2020-11-20"
+                    min="2021-01-01" max="2030-12-31">
+
+                <form class="radio">
+                    <fieldset>
+                      <legend>Choose your service</legend>
+                  
+                      <input type="radio" id="haircut" name="Cut">
+                      <label for="Haircut">Haircut</label><br/>
+                  
+                      <input type="radio" id="shave" name="shave">
+                      <label for="shave">Shave</label><br/>
+                  
+                      <input type="radio" id="style" name="hair-style">
+                      <label for="style">Hair Style</label>
+                    </fieldset>
+                  </form>
+
+                <label for="story">Tell us how can we help you? :</label>
+                <textarea id="story" name="story"
+                        rows="7" cols="38">
+                </textarea>
+                <div class="form-submit">
+                    <input type="submit" value="Schedule">
+                  </div>
+            </div>
+          </div>
+
+    </main>
+            
+</body>
+
+    <footer class="footer">
+        <p>@ 2023 By DevBarberShop. All Rights Reserved.</p>
+    
+    </footer>
+</html>
